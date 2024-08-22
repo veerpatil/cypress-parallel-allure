@@ -1,0 +1,24 @@
+{
+  "name": "cypress-parallel-allure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:test": "cypress run --config-file test.config.js --env grepTags=@regression"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsrihari4/cypress-parallel-allure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsrihari4/cypress-parallel-allure/issues"
+  },
+  "homepage": "https://github.com/devsrihari4/cypress-parallel-allure#readme",
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress": "^13.13.3"
+  }
+}
