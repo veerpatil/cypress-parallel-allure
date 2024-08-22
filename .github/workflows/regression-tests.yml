@@ -13,9 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install Packages
-        run:  npm install  
-      - name: install playwright
-        run: npx playwright install-deps webkit
+        run:  npm install
       - name: Run Tests
         run:  npx cypress run --env allure=true grepTags=@regression --spec $(node cypress-parallel.js ${{ matrix.containers }} 6)
       
