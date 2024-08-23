@@ -20,6 +20,6 @@
   "devDependencies": {
     "@cypress/grep": "^4.1.0",
     "@shelex/cypress-allure-plugin": "^2.40.2",
-    "cypress": "^13.3.0"
+    "cypress": "^12.14.0"
   }
 }
