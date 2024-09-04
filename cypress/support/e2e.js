@@ -21,4 +21,4 @@ import './commands'
 
 const registerCypressGrep = require('@cypress/grep')
 registerCypressGrep()
-require('@shelex/cypress-allure-plugin');
+import "allure-cypress";

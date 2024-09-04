@@ -19,7 +19,7 @@
   "homepage": "https://github.com/devsrihari4/cypress-parallel-allure#readme",
   "devDependencies": {
     "@cypress/grep": "^4.1.0",
-    "@shelex/cypress-allure-plugin": "^2.40.2",
-    "cypress": "^12.14.0"
+    "allure-cypress": "^3.0.0-beta.11",
+    "cypress": "^13.14.1"
   }
 }
